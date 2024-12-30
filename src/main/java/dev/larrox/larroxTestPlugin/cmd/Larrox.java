@@ -18,7 +18,7 @@ public class Larrox implements CommandExecutor {
         Player player = (Player) sender;
 
         if (args.length != 1) {
-            player.sendMessage("<red>Mir fehlt 1 Argument! :c");
+            player.sendMessage("§cMir fehlt 1 Argument! :c");
             return true;
         }
 

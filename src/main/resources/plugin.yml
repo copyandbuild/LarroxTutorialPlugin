@@ -1,0 +1,13 @@
+name: LarroxTestPlugin
+version: '1.0'
+main: dev.larrox.larroxTestPlugin.LarroxTestPlugin
+api-version: '1.21'
+load: STARTUP
+authors: [ Larrox ]
+website: https://larrox.dev/
+commands:
+  larrox:
+    permission: Larrox.command.Larrox
+    permission-message: Du hast darauf keine Berechtigung, haha.
+    description: Larrox.
+    usage: /<command> <args0>
